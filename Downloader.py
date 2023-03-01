@@ -1,4 +1,7 @@
 from pytube import YouTube as YT
+import os
+
+path = os.environ.get("path")
 
 link = input("Enter Link\n")
 
@@ -8,6 +11,6 @@ print(video.title, "is being downloaded")
 
 HRvideo = video.streams.get_highest_resolution()
 
-HRvideo.download(f"C:\\Users\\cavan\\Videos\\YouTube-Downloads/{video.title}")
+HRvideo.download(f"{path}")
 
 print("All Done")
