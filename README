@@ -1,4 +1,6 @@
 Very simple python script to download youtube videos.
-set the path you want videos downloaded to in a .env file with the variable name 'path'
+set the path you want videos downloaded to in a .env file with the variable name 'downloadPath'
 When you run the script you will be prompted to enter a link to a youtube video.
 the script will then download the video and save it to the specified path.
+
+be sure to install the libraries from requirements.txt first
