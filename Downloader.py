@@ -6,8 +6,6 @@ load_dotenv()
 
 downloadPath = os.environ.get("downloadPath")
 
-print("start:\n\n",downloadPath,"\n\nend")
-
 
 link = input("Enter Link\n")
 
